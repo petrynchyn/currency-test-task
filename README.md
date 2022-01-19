@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Project use https://exchangeratesapi.io/documentation/#endpoints
+Exchange Rates API
+With over 15 exchange rate data sources, the Exchangerates API is delivering exchanging rates data for more than 170 world currencies. This API has several endpoints, where each of them serves a different purpose, use case. The endpoints include functionalities like receiving the latest exchange rates information for a specific set, or for all currencies; conversion from one to another currency; receiving data Time-series for multiple or for one currency, and preserving the API daily for the fluctuation data.
+
+In this document, you will find out about the API structure, the methods, and the potential errors and code examples. If you still have questions and doubts, please do not hesitate to contact us, our team will do their best to help you.
+
+API Key
+The API has a unique identifier as an API key that gets passed into the API as an URL parameter access_key. This parameter serves as a unique identifying authentication with the Exchangerates API.
+### `Please set parameter REACT_APP_API_ACCESS_KEY in .env file`
+
+
+This project was bootstrapped wit [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
 
